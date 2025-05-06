@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Copy URL",
+  "version": "1.0",
+  "description": "Copy URL via Cmd + Shift + C",
+  "permissions": ["activeTab", "scripting", "clipboardWrite"],
+  "content_scripts": [
+    {
+      "js": ["scripts/content.js"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}

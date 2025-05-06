@@ -1,0 +1,3 @@
+- Tiny Chrome Extension
+- Cmd + Shift + C to copy and paste
+- Load via dev mode, I have no intention to properly release this
